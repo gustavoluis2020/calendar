@@ -1,0 +1,9 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.padding2 {
+  width: 100vw;
+  flex-direction: column;
+}

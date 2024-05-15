@@ -1,0 +1,46 @@
+/* Sidebar.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 9999;
+  width: 18%;
+  height: 100%;
+  align-items: center;
+}
+
+.container h2 {
+  color: black;
+  font-size: 25px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.sidebar h2 {
+  color: black;
+  font-size: 25px;
+}
+
+.sidebar button {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  width: 40%;
+}
+
+.sidebar button.active {
+  background-color: blue;
+  color: white;
+}

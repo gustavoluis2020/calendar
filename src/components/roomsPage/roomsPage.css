@@ -1,0 +1,27 @@
+/* RoomPage.css */
+.rooms-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  height: 100%;
+  gap: 5px;
+}
+
+.center-top-title {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.room-item {
+  flex-direction: column;
+}
+
+.single-room {
+}
+.room-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
